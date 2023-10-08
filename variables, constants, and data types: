@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main() {
+    // Declare and initialize variables
+    int age = 25;
+    float height = 5.8;
+    char gender = 'M';
+
+    // Declare a constant
+    const float PI = 3.14;
+
+    // Print the values of the variables and constant
+    std::cout << "Age: " << age << std::endl;
+    std::cout << "Height: " << height << std::endl;
+    std::cout << "Gender: " << gender << std::endl;
+    std::cout << "PI: " << PI << std::endl;
+
+    return 0;
+}
